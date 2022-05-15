@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>{{ settings.metaTitle }}</title>
+
+    {{> head }}
+
+    <!--- THEMES: in settings.json change 'glitch' to 'gallery', 'menu', or any other theme in the layout/themes folder --->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/styles/themes/{{settings.theme}}.css"
+    />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-XJHJMBNPJT"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-XJHJMBNPJT");
+    </script>
+  </head>
+  <body>
+    <main>
+      <div class="wrapper">
+        <div class="content">
+          {{> avatar }} {{> name }}
+
+          <p>Tu salud mental te está llamando. ¡CONTÉSTALE!</p>
+          <p>
+            Consulta más en
+            <a href="https://instagram.com/salud.mentalenlapandemia"
+              >Instagram</a
+            >.
+          </p>
+          <p>
+            Tú salud mental es importante, recuerda que hay personas que te
+            pueden ayudar.
+          </p>
+
+          <h2>Ver comercial:</h2>
+
+          <ul class="link-list">
+            <li>
+              <a href="https://youtube.com/shorts/aUkQP9Q8ZUI?feature=share"
+                >En YouTube</a
+              >
+            </li>
+          </ul>
+          <h2>Escuchar <em>En mi mente</em> y spots de radio:</h2>
+
+          {{> links }}
+
+          <div id="spotify">
+            <iframe
+              style="border-radius: 12px"
+              src="https://open.spotify.com/embed/show/0W2oeMDeztqNXeAiXZ3FSa?utm_source=generator"
+              width="100%"
+              height="232"
+              frameborder="0"
+              allowfullscreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            ></iframe>
+          </div>
+          <br />
+          <div id="castbox">
+            <iframe
+              src="https://castbox.fm/app/castbox/player/id4923704?v=8.22.11&autoplay=0"
+              frameborder="0"
+              width="100%"
+              height="auto"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+      <br />
+      {{> social }}
+
+      <!--- FOOTER: You can safely remove the Glitch footer (but tell your friends!) ✂ --->
+      {{> glitch-footer }}
+    </main>
+  </body>
+</html>

@@ -1,0 +1,75 @@
+{
+  "metaTitle": "Info | Salud mental en la pandemia",
+  "metaDescription": "Tu salud mental te está llamando. ¡CONTÉSTALE",
+  "name": "Salud mental en la pandemia",
+  "theme": "theme",
+  "avatarImage": "https://cdn.glitch.global/695fd322-44e3-49c4-a958-1d58b299e67b/Logo?v=1652543992360",
+  "links": [
+    {
+      "url": "https://saludmental.glitch.me/#spotify",
+      "text": "En Spotify",
+      "img": ""
+    },
+    {
+      "url": "https://music.amazon.com.mx/podcasts/36b7cf3d-4a00-49a7-b53c-25aae4942641/en-mi-mente",
+      "text": "En Amazon Music",
+      "img": ""
+    },
+    {
+      "url": "https://www.deezer.com/mx/show/3647757",
+      "text": "En Deezer",
+      "img": ""
+    },
+    {
+      "url": "https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy85M2Q2YTU2OC9wb2RjYXN0L3Jzcw",
+      "text": "En Google Podcasts",
+      "img": ""
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCtZhXVKJR9jUidSxQLZNyTQ/videos",
+      "text": "En YouTube",
+      "img": ""
+    },
+    {
+      "url": "https://saludmental.glitch.me/#castbox",
+      "text": "En Castbox",
+      "img": ""
+    },
+    {
+      "url": "https://pca.st/1bbdhp2l",
+      "text": "En Pocket Casts",
+      "img": ""
+    },
+    {
+      "url": "https://www.stitcher.com/show/en-mi-mente",
+      "text": "En Stitcher",
+      "img": ""
+    }
+  ],
+  "social": {
+    "glitch": "",
+    "spotify": "https://open.spotify.com/show/0W2oeMDeztqNXeAiXZ3FSa",
+    "substack": "",
+    "dev": "",
+    "facebook": "",
+    "github": "",
+    "gitlab": "",
+    "hashnode": "",
+    "instagram": "https://www.instagram.com/salud.mentalenlapandemia/",
+    "linkedin": "",
+    "medium": "",
+    "patreon": "",
+    "pinterest": "",
+    "twitter": "",
+    "youtube": "https://www.youtube.com/channel/UCtZhXVKJR9jUidSxQLZNyTQ",
+    "twitch": "",
+    "tiktok": "",
+    "podcast": "https://anchor.fm/enmimente",
+    "soundcloud": "",
+    "bandcamp": "",
+    "mastodon": "",
+    "stackoverflow": "",
+    "kofi": "",
+    "email": "enmimente.salud@gmail.com"
+  }
+}
